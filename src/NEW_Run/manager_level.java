@@ -1,6 +1,5 @@
 package NEW_Run;
 
-import STUDENTS.command_UI_student;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -152,8 +151,8 @@ public class manager_level {
             System.out.print(result_5.getString("building") + " ");  // 楼栋
             System.out.println(result_5.getString("room"));  // 房间号
             System.out.println("==========================");
-            choose();
         }
+        choose();
     }
 
     public static void find_students_students() throws SQLException, ClassNotFoundException {
@@ -170,8 +169,9 @@ public class manager_level {
             System.out.print(result_6.getString("building") + " ");  // 楼栋
             System.out.println(result_6.getString("room"));  // 房间号
             System.out.println("==========================");
-            choose();
         }
+        choose();
+
     }
 
 

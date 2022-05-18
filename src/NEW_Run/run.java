@@ -20,7 +20,7 @@ public class run {
         try{
             Class.forName("com.mysql.jdbc.Driver");
             System.out.println("MySQl连接驱动加载成功");
-            Connection connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/data","root","******");
+            Connection connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/data","root","MySql.13593977512L");
             System.out.println("MySQL连接成功");
             return connect;
 
